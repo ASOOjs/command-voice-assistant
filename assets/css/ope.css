@@ -1,0 +1,328 @@
+
+  :root {
+    --bot: #eb1717;
+    --alternate-bot-text-color: #1c1c1c;
+    --main-color: #eb1717;
+    --background: #eb1717;
+    --secondary: #ffffff;
+    --link: #5E17EB;
+    --text-color: #fff;
+    --secondary-text-color: #dcdcdc;
+  }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bot);
+}
+
+.feature-box .icon {
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 30px;
+  text-align: center;
+  color: var(--bot);
+}
+
+.discord {
+  color: #ffffff;
+  border-color: #eb1717;
+  background-color: transparent;
+  transition: all 0.40s linear;
+}
+
+.button {
+  color: var(--bot);
+  border-color: var(--bot);
+  background-color: transparent;
+  transition: all 0.40s linear;
+}
+
+.button:hover {
+  color: var(--alternate-bot-text-color);
+  background-color: var(--bot);
+  border-color: var(--bot);
+  transform: skewx(10deg);
+  transform: skewY(10deg);
+}
+
+.discord:hover {
+  color: #fff;
+  background-color: #eb1717;
+  border-color: #000000;
+}
+
+.partners {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.partners.img {
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  color: v
+  ar(--secondary-text-color);
+}
+.accordion .accordion-item {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid var(--link);
+}
+
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: var(--link);
+}
+
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: var(--link);
+  border-right: 1px solid var(--link);
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: var(--link);
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+div#features {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-radius: 25px;
+  background: var(--background);
+}
+
+div#features:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.partner:hover {
+  border-radius: 598px;
+  border-style: solid;
+  border-color: var(--main-color);
+}
+
+.partner {
+  width: 160px;
+  height: 160px;
+  transition: all 200ms linear;
+}
+
+.yeet {
+  text-align: center;
+  padding: 18px;
+}
+
+.card {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: rgb(16,16,16);
+  border-radius: 29px;
+}
+
+.credit {
+  color: var(--bot);
+  transition: all 0.30s linear;
+}
+
+.credit:hover {
+  text-decoration: none;
+  color: var(--bot);
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: var(--text-color);
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: var(--link);
+}
+
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: var(--link);
+  border-right: 1px solid var(--link);
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: var(--link);
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 250em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.col-sm-6.col-lg-4 {
+    margin: 20px;
+}
+.menu.vertical {
+  width: 200px;
+  padding: 10px 0;
+}
+
+.menu.vertical > ul {
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.menu.vertical > ul > li {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.menu.vertical > ul > li > a {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu.vertical > ul > li .dropdown {
+  left: 190px;
+  top: 10px;
+  padding-left: 20px;
+  margin-left: 0;
+  padding-top: 0;
+}
+
+.menu.vertical > ul > li .dropdown .dropdown {
+  top: 0;
+}
+
+.menu.vertical > ul > li .dropdown::before {
+  border-bottom-color: transparent;
+  border-right-color: #f5f5f5;
+  top: 10px;
+  left: 4px;
+  margin-left: 0;
+}
+
+.menu.vertical > ul > li[data-dropdown] > a::after {
+  content: "f0da";
+}

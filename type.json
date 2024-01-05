@@ -1,0 +1,18 @@
+[
+  {
+    "commandName": "merhaba",
+    "result": "Merhaba! Ben Thoxa size nasıl yardım edebilirim?"
+  },
+  {
+    "commandName": "selam",
+    "result": "Selam! Size nasıl yardımcı olabilirim?"
+  },
+  {
+    "commandName": "sen kimsin",
+    "result": "Ben Thoxa, Sizi Dinliyorum."
+  },
+  {
+    "commandName": "yapımcın kim",
+    "result": "Yapımcım Onur Arda, size hizmet etmek için oluşturuldum."
+  }
+]
