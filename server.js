@@ -1,4 +1,4 @@
-const express = require('express'); // Node.js için web uygulaması oluşturmaya yarayanmodül.
+const express = require('express'); // Node.js için web uygulaması oluşturmaya yarayan modül.
 const bodyParser = require('body-parser'); // Gelen istekleri ayrıştıran modül.
 const fs = require('fs'); // Dosya yollarını bulmaya yarayan, okumaya ve yazmaya yarayan modül.
 const cors = require('cors'); // Diğer kaynaklar arasında paylaşım yapmaya yarayan modül.
